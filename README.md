@@ -1,7 +1,9 @@
+
+https://github.com/user-attachments/assets/8aa1c2af-b467-4b4f-a0e2-b777de76e874
 # AI-RAG Chatbot
 
 ## Projenin Amacı
-Bu proje, Wikipedia AI Glossary veri setini kullanarak bir **Retrieval-Augmented Generation (RAG)** Chatbot geliştirmeyi amaçlamaktadır. Chatbot, kullanıcıların AI ve makine öğrenmesi ile ilgili teknik terimleri doğal dilde sorabilmesini sağlar, veri setindeki en ilgili bilgiler önce seçilir ve ardından doğal dil modeli ile anlamlı yanıtlar üretilir. Böylece hem doğru ve anlaşılır bilgiler sunulur hem de AI terimlerini öğrenmek isteyenler için etkileşimli bir eğitim aracı oluşturulur. Uygulama, hem yerel ortamda hem de Streamlit üzerinden internette erişilebilir şekilde tasarlanmıştır.
+Bu proje, Wikipedia AI Glossary veri setini kullanarak bir Retrieval-Augmented Generation (RAG) Chatbot geliştirmeyi amaçlamaktadır. Chatbot, kullanıcıların AI ve makine öğrenmesi ile ilgili terimleri doğal dilde sorabilmesini sağlar. Veri setindeki en ilgili bilgiler önce seçilir ve ardından doğal dil modeli ile anlamlı yanıtlar üretilir. Böylece hem doğru hem de anlaşılır bilgi sunulur ve AI terimlerini öğrenmek isteyenler için etkileşimli bir eğitim aracı oluşturulur.
 
 ## Geliştirme Ortamı
 **Github:** AI-RAG Chatbot
@@ -13,8 +15,9 @@ Bu proje, Wikipedia AI Glossary veri setini kullanarak bir **Retrieval-Augmented
 **Sanal Ortam:** rag_env (virtualenv)
 
 ## Veri Seti
-Kullanılan veri seti: [Wikipedia AI Glossary](https://www.kaggle.com/datasets/antoinebourgois2/wikipedia-ai-glossary)  
-Veri seti, yapay zekâ ile ilgili terimlerin açıklamalarını içerir.
+**Kullanılan veri seti:** [Wikipedia AI Glossary](https://www.kaggle.com/datasets/antoinebourgois2/wikipedia-ai-glossary)  
+**İçerik:** Yapay zekâ ile ilgili terimlerin açıklamaları
+**Not:** Veri seti GitHub reposuna dahil edilmez, Kaggle API üzerinden indirilir
 
 **Toplama/Hazırlama:** Hazır veri seti kullanılmıştır; ek veri toplama veya temizleme yapılmamıştır.
 
@@ -47,6 +50,7 @@ Problem: Kullanıcının AI ile ilgili teknik terim sorularına doğal dilde do�
 - Teknik terimler ve AI ile ilgili kavramlar hakkında bilgi sunabilmektedir.  
 - Uygulama hem yerel ortamda hem de internette Streamlit üzerinden çalıştırılabilir.
 
+
 ## Canlı Web Uygulaması
 [AI-RAG Chatbot Web](https://ai-rag-chatbot-yusraazrademirel.streamlit.app)
 
@@ -54,7 +58,10 @@ Problem: Kullanıcının AI ile ilgili teknik terim sorularına doğal dilde do�
 
 ## 🖥️ Uygulama Demo
 
-![Demo](assets/demo.gif)
+
+https://github.com/user-attachments/assets/438335e5-39db-4c0d-bfa1-cbaebc052469
+
+
 
 
 ## 🛠️ Kurulum
@@ -109,5 +116,8 @@ AI-RAG-Chatbot/
 └── requirements.txt
 ```
 
+Notlar
+Chatbot arayüzü, kullanıcı ve asistan mesajlarını balonlar içinde gösterir
+Dark/Light mod desteklenir
 
 Web Uygulaması: https://ai-rag-chatbot-yusraazrademirel.streamlit.app
