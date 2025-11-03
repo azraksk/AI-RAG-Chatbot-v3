@@ -1,5 +1,4 @@
 
-https://github.com/user-attachments/assets/8aa1c2af-b467-4b4f-a0e2-b777de76e874
 # AI-RAG Chatbot
 
 ## Projenin Amacı
