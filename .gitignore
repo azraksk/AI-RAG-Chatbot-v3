@@ -15,3 +15,6 @@ __pycache__/
 *.pyc
 .DS_Store
 >>>>>>> c60be98 (Update app.py, notebook, and requirements with latest changes)
+rag_env/
+__pycache__/
+*.pyc
