@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 kaggle.json
 Desktop/kaggle.json
 data/
@@ -8,3 +9,9 @@ data/
 __pycache__/
 *.zip
 .ipynb_checkpoints/
+=======
+rag_env/
+__pycache__/
+*.pyc
+.DS_Store
+>>>>>>> c60be98 (Update app.py, notebook, and requirements with latest changes)
